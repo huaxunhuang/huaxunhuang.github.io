@@ -1,184 +1,292 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-
-	<meta name="keywords" content="">
-		<meta name="description" content="">
-
-			<title>Huaxun HUANG's Home Page</title>
-
-			<link href="./src/common.css"
-				rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Huaxun Huang (黄华勋) — Assistant Professor at School of Informatics, Xiamen University. Research on software engineering, program analysis, and mobile app testing.">
+  <meta name="keywords" content="Huaxun Huang, 黄华勋, Xiamen University, software engineering, Android, program analysis">
+  <title>Huaxun Huang — Xiamen University</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link href="./src/common.css" rel="stylesheet" type="text/css">
 </head>
-
 <body>
 
-	<div class="content_wrapper">
-		<div class="content_block">
-			<div class="photo fl">
-				<img src="./src/photo.jpg" alt=""
-					style="width:120px;height:160px;">
-			</div>
+  <nav class="topnav">
+    <div class="topnav-inner">
+      <a href="#top" class="brand">Huaxun Huang</a>
+      <div class="nav-links">
+        <a href="#bio">Bio</a>
+        <a href="#publication">Publications</a>
+        <a href="#honors_awards">Awards</a>
+        <a href="#students">Students</a>
+        <a href="#teaching_experience">Teaching</a>
+      </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+      </button>
+    </div>
+  </nav>
 
-			<div class="text fl">
-				<p class="content_title">
-					Huaxun Huang <font face="楷书">(黄华勋)</font>
-				</p>
-				<br>
-				
-			<p>
-				
-			</p>
-			
-			<p>
-				Assistant Professor,
-			</p>
-			<p>
-					School of Informatics (National Characteristic Demonstration Software School), 
-			</p>
-			<p>
-				Xiamen University
-			</p>
+  <main id="top">
 
-			<p>
-				huanghuaxun at xmu dot edu dot cn
-			</p>
-				
-			</div>
-			<div class="clear"></div>
+    <header class="hero">
+      <img class="hero-photo" src="./src/photo.jpg" alt="Portrait of Huaxun Huang">
+      <div class="hero-text">
+        <h1>Huaxun Huang <span class="zh">黄华勋</span></h1>
+        <p class="role">Assistant Professor</p>
+        <p class="affil">
+          School of Informatics (National Characteristic Demonstration Software School)<br>
+          Xiamen University
+        </p>
+        <p class="email">huanghuaxun<span class="at">[at]</span>xmu<span class="at">[dot]</span>edu<span class="at">[dot]</span>cn</p>
+      </div>
+    </header>
 
-		</div>
- 
-		<div class="content_block">
-			</br>
-			<p id="bio" class="content_title">Short Bio</p>
-			<p>
-				I am an assistant professor in School of Informatics (National Characteristic Demonstration Software School), <a href="http://www.xmu.edu.cn">Xiamen University</a>. Prior to that, I received my PhD degree in Department of Computer Science and Engineering, <a
-					href="http://www.ust.hk">The Hong Kong 
-
-University of Science
-					and Technology</a> in 2023, supervised by <a
-					href="http://www.cse.ust.hk/faculty/scc/">Prof. 
-
-Shing-Chi
-					Cheung</a>. I obtained my Bachelor's Degree in Software Engineering, <a href="http://www.neu.edu.cn">Northeastern University</a>
-				on June 2017.
-				You are welcome to contact with me 
-
-through huanghuaxun at xmu dot edu dot cn. 
-			</p>
-
-			</br>
-			
-			<p id="publication" class="content_title">Publications (^ denotes the students I supervised, * means the corresponding author)</p>
-			<p>
-				<b>[TSE '26]</b> <b>Huaxun Huang</b>, Wu Liu^, Jiahao Gu^, Rongxin Wu*, <b>Spotting Setting-Related UI Display Bugs in Android Apps</b>. In IEEE Transactions on Software Engineering <b>(CCF-A)</b> [to appear] </a> 
-			<p>
-				<b>[TOSEM '26]</b> Xiangyang Xiao^, <b>Huaxun Huang*</b>, Rongxin Wu, <b>LDMDroid: Leveraging LLMs for Detecting Data Manipulation Errors in Android Apps</b>. In ACM Transactions on Software Engineering and Methodology <b>(CCF-A)</b>  <a href="https://arxiv.org/abs/2604.00458">[preprint] </a> 
-			<p>
-				<b>[FSE '26]</b> Teyu Lin^, Minghao Fan^, <b>Huaxun Huang*</b>, Zhirong Shen, Rongxin Wu, <b>TypePro: Boosting LLM-Based Type Inference via Inter-Procedural Slicing</b>. In the ACM International Conference on the Foundations of Software Engineering (FSE 2026), Montreal, Canada, July 2026. <b>(CCF-A)</b> <a href="./src/fse2026.pdf">[preprint] </a> 
-			<p>
-				<b>[OOPSLA '26]</b> Yuxuan He, Ruilin Jiang, He Zhang, Qingkai Shi, <b>Huaxun Huang</b>, Rongxin Wu,  <b>Hermes: Making Path-Sensitive Pointer Analysis Scalable for Sparse Value-Flow Analysis</b>. In International Conference on Object-Oriented Programming Systems, Languages, and Applications (OOPSLA 2026), Oakland, California, United States, October 2026. <b>(CCF-A)</b> <a href="./src/oopsla2026.pdf">[preprint] </a> 
-				<p>
-				<b>[ASE '25]</b> Jiahao Gu^, <b>Huaxun Huang*</b>,  <b>Characterizing and Repairing Color-Related Accessibility Issues in Android Apps</b>. In the 40th IEEE/ACM Automated Software Engineering Conference (ASE'25), Seoul, South Korea, November 2025. <b>(CCF-A)</b> <a href="./src/ase25.pdf">[preprint] </a> 
-			</p>
-	<p>
-				<b>[ISSTA '23]</b> <b>Huaxun Huang</b>, Chi Xu, Ming Wen, Yepang Liu, Shing-Chi Cheung*,  <b>ConfFix: Repairing Configuration Compatibility Issues in Android Apps</b>. In Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA'23), Seattle, USA, July 2023. <b>(CCF-A)</b> <a href="./src/issta23.pdf">[preprint] </a>
-			</p>
-	
-			<p>
-				<b>[ASE '21]</b> <b>Huaxun Huang</b>, Ming Wen, Lili Wei, Yepang Liu, Shing-Chi Cheung*,  <b>Characterizing and Detecting Configuration Compatibility Issues in Android Apps</b>. In Proceedings of the 36th IEEE/ACM International Conference on Automated Software Engineering (ASE'21), Melbourne, Australia, Nov 2021. <b>(CCF-A)</b> <a href="./src/ase2021.pdf">[preprint] </a>
-			</p>
-	
-			<p>
-				<b>[TSE '20]</b> Lili Wei, Yepang Liu, Shing-Chi Cheung, <b>Huaxun Huang</b>, Xuan Lu, and Xuanzhe Liu, <b>Understanding and Detecting Fragmentation-Induced Compatibility Issues for Android Apps</b>. In IEEE Transactions on Software Engineering, vol. 46, no. 11, pp. 1176-1199, 1 Nov. 2020, doi: 10.1109/TSE.2018.2876439. <b>(CCF-A)</b> <a href="https://ieeexplore.ieee.org/document/8493348">[preprint] </a>
-			</p>
-	
-			<p>
-				<b>[ASE '18] </b> <b>Huaxun Huang</b>, Lili Wei, Yepang Liu*, Shing-Chi Cheung*, <b>Understanding and Detecting Callback Compatibility Issues for Android Applications</b>. In Proceedings of the 33rd IEEE/ACM International Conference on Automated Software Engineering (ASE'18), Montpellier, France, Sept 2018. <b>(CCF-A)</b> <a href="./src/72ase18.pdf">[preprint] </a>
-			</p>
-			<p>
-				<b>[ASE '18] </b>Jiajun Hu, Lili Wei, Yepang Liu*, Shing-Chi Cheung*, <b>Huaxun Huang</b>, <b>A Tale of Two Cities: How WebView Induces Bugs to Android Applications</b>. In Proceedings of the 33rd IEEE/ACM International Conference on Automated Software Engineering (ASE'18), Montpellier, France, Sept 2018. <b>(CCF-A)</b> <a href="./src/71ase18.pdf">[preprint] </a>
-			</p>
-			
-			</br>
-			
-			<p id="honors_awards" class="content_title">Selected Honors & Awards</p>
+    <section id="bio" class="reveal">
+      <h2>Short Bio / 简介</h2>
       <p>
-        Hong Kong PhD Fellowship Scheme (HKPFS), 2017-2021.
-        </p>
-	<p>
-         SIGSOFT CAPS for ASE 2018, 2018.
-        </p>
-			<p>
-			 Outstanding Graduates Honor in Liaoning Province, 
+        I am an assistant professor at the School of Informatics (National Characteristic Demonstration Software School),
+        <a href="http://www.xmu.edu.cn">Xiamen University</a>. Prior to that, I received my PhD degree from the Department of Computer Science and Engineering,
+        <a href="http://www.ust.hk">The Hong Kong University of Science and Technology</a> in 2023, supervised by
+        <a href="http://www.cse.ust.hk/faculty/scc/">Prof. Shing-Chi Cheung</a>. I obtained my Bachelor's degree in Software Engineering from
+        <a href="http://www.neu.edu.cn">Northeastern University</a> in June 2017.
+      </p>
+      <p>You are welcome to contact me via email.</p>
+      <p lang="zh-CN">
+        我目前是<a href="http://www.xmu.edu.cn">厦门大学</a>信息学院（国家特色化示范性软件学院）助理教授。在此之前，我于 2023 年在<a href="http://www.ust.hk">香港科技大学</a>计算机科学与工程系获得博士学位，师从<a href="http://www.cse.ust.hk/faculty/scc/">张成志（Shing-Chi Cheung）教授</a>；2017 年 6 月毕业于<a href="http://www.neu.edu.cn">东北大学</a>软件工程专业，获学士学位。
+      </p>
+      <p lang="zh-CN">欢迎通过邮件与我联系。</p>
+    </section>
 
-2017
-			</p>
-			<p>
-				Outstanding Undergraduate Student in Shenyang City, 2016
-			</p>
-			<p>
-				National Scholarship, 2014-2015
-			</p>
-			<p>
-				Liu Dajie and Fang Wenyu Scholarship, 2013-2014
-			</p>
-			
-		<p id="students" class="content_title">Students</p>
-			<p>
-				Wu Liu (Master student starting from 2023, cosupervised with Prof. Rongxin Wu)
-			</p>
-			
-			<p>
-				Jiahao Gu (Master student starting from 2024)
-			</p>
-			
-			<p>
-				Teyu Lin (Master student starting from 2024)
-			</p>
+    <section id="publication" class="reveal">
+      <h2>Publications</h2>
+      <p class="section-note">^ denotes students I supervised. * denotes the corresponding author.</p>
 
-			<p>
-				Xiangyang Xiao (Master student starting from 2024)
-			</p>
+      <ul class="pub-list">
 
-			<p>
-				Haoze Yu (Master student starting from 2024)
-			</p>
+        <li class="pub">
+          <span class="venue">TSE '26</span>
+          <div class="pub-body">
+            <p class="pub-title">Spotting Setting-Related UI Display Bugs in Android Apps <span class="tag">CCF-A</span></p>
+            <p class="pub-authors"><span class="me">Huaxun Huang</span>, Wu Liu^, Jiahao Gu^, Rongxin Wu*</p>
+            <p class="pub-meta">IEEE Transactions on Software Engineering [to appear]</p>
+          </div>
+        </li>
 
-			<p>
-				Minghao Fan (Master student starting from 2025)
-			</p>
+        <li class="pub">
+          <span class="venue">TOSEM '26</span>
+          <div class="pub-body">
+            <p class="pub-title">LDMDroid: Leveraging LLMs for Detecting Data Manipulation Errors in Android Apps <span class="tag">CCF-A</span></p>
+            <p class="pub-authors">Xiangyang Xiao^, <span class="me">Huaxun Huang*</span>, Rongxin Wu</p>
+            <p class="pub-meta">
+              ACM Transactions on Software Engineering and Methodology
+              <span class="pub-links"><a href="https://arxiv.org/abs/2604.00458">preprint</a></span>
+            </p>
+          </div>
+        </li>
 
-			<p>
-				Jian He (Master student starting from 2025)
-			</p>
+        <li class="pub">
+          <span class="venue">FSE '26</span>
+          <div class="pub-body">
+            <p class="pub-title">TypePro: Boosting LLM-Based Type Inference via Inter-Procedural Slicing <span class="tag">CCF-A</span></p>
+            <p class="pub-authors">Teyu Lin^, Minghao Fan^, <span class="me">Huaxun Huang*</span>, Zhirong Shen, Rongxin Wu</p>
+            <p class="pub-meta">
+              ACM International Conference on the Foundations of Software Engineering (FSE 2026), Montreal, Canada, July 2026
+              <span class="pub-links"><a href="./src/fse2026.pdf">preprint</a></span>
+            </p>
+          </div>
+        </li>
 
-			<p>
-				Chengfeng Lin (Master student starting from 2025)
-			</p>
+        <li class="pub">
+          <span class="venue">OOPSLA '26</span>
+          <div class="pub-body">
+            <p class="pub-title">Hermes: Making Path-Sensitive Pointer Analysis Scalable for Sparse Value-Flow Analysis <span class="tag">CCF-A</span></p>
+            <p class="pub-authors">Yuxuan He, Ruilin Jiang, He Zhang, Qingkai Shi, <span class="me">Huaxun Huang</span>, Rongxin Wu</p>
+            <p class="pub-meta">
+              International Conference on Object-Oriented Programming Systems, Languages, and Applications (OOPSLA 2026), Oakland, USA, October 2026
+              <span class="pub-links"><a href="./src/oopsla2026.pdf">preprint</a></span>
+            </p>
+          </div>
+        </li>
 
-			<p>
-				Zhirong Zheng (Master student starting from 2025)
-			</p>
+        <li class="pub">
+          <span class="venue">ASE '25</span>
+          <div class="pub-body">
+            <p class="pub-title">Characterizing and Repairing Color-Related Accessibility Issues in Android Apps <span class="tag">CCF-A</span></p>
+            <p class="pub-authors">Jiahao Gu^, <span class="me">Huaxun Huang*</span></p>
+            <p class="pub-meta">
+              40th IEEE/ACM Automated Software Engineering Conference (ASE 2025), Seoul, South Korea, November 2025
+              <span class="pub-links"><a href="./src/ase25.pdf">preprint</a></span>
+            </p>
+          </div>
+        </li>
 
-		<p id="teaching_experience" class="content_title">Teaching Experience</p>
-			
-			<p>
-				1. Teaching assistant for COMP4431, Spring 2020
-			</p>
-			<p>
-				2. Teaching assistant for COMP2012, Fall 2019
-			</p>
-			<p>
-				3. Teaching assistant for COMP4111, Fall 2018
-			</p>
+        <li class="pub">
+          <span class="venue">ISSTA '23</span>
+          <div class="pub-body">
+            <p class="pub-title">ConfFix: Repairing Configuration Compatibility Issues in Android Apps <span class="tag">CCF-A</span></p>
+            <p class="pub-authors"><span class="me">Huaxun Huang</span>, Chi Xu, Ming Wen, Yepang Liu, Shing-Chi Cheung*</p>
+            <p class="pub-meta">
+              32nd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2023), Seattle, USA, July 2023
+              <span class="pub-links"><a href="./src/issta23.pdf">preprint</a></span>
+            </p>
+          </div>
+        </li>
 
-		<div id="footer">
-			Maintained by Huaxun Huang</br> 
-		</div>
+        <li class="pub">
+          <span class="venue">ASE '21</span>
+          <div class="pub-body">
+            <p class="pub-title">Characterizing and Detecting Configuration Compatibility Issues in Android Apps <span class="tag">CCF-A</span></p>
+            <p class="pub-authors"><span class="me">Huaxun Huang</span>, Ming Wen, Lili Wei, Yepang Liu, Shing-Chi Cheung*</p>
+            <p class="pub-meta">
+              36th IEEE/ACM International Conference on Automated Software Engineering (ASE 2021), Melbourne, Australia, November 2021
+              <span class="pub-links"><a href="./src/ase2021.pdf">preprint</a></span>
+            </p>
+          </div>
+        </li>
+
+        <li class="pub">
+          <span class="venue">TSE '20</span>
+          <div class="pub-body">
+            <p class="pub-title">Understanding and Detecting Fragmentation-Induced Compatibility Issues for Android Apps <span class="tag">CCF-A</span></p>
+            <p class="pub-authors">Lili Wei, Yepang Liu, Shing-Chi Cheung, <span class="me">Huaxun Huang</span>, Xuan Lu, Xuanzhe Liu</p>
+            <p class="pub-meta">
+              IEEE Transactions on Software Engineering, vol. 46, no. 11, pp. 1176–1199, November 2020
+              <span class="pub-links"><a href="https://ieeexplore.ieee.org/document/8493348">IEEE Xplore</a></span>
+            </p>
+          </div>
+        </li>
+
+        <li class="pub">
+          <span class="venue">ASE '18</span>
+          <div class="pub-body">
+            <p class="pub-title">Understanding and Detecting Callback Compatibility Issues for Android Applications <span class="tag">CCF-A</span></p>
+            <p class="pub-authors"><span class="me">Huaxun Huang</span>, Lili Wei, Yepang Liu*, Shing-Chi Cheung*</p>
+            <p class="pub-meta">
+              33rd IEEE/ACM International Conference on Automated Software Engineering (ASE 2018), Montpellier, France, September 2018
+              <span class="pub-links"><a href="./src/72ase18.pdf">preprint</a></span>
+            </p>
+          </div>
+        </li>
+
+        <li class="pub">
+          <span class="venue">ASE '18</span>
+          <div class="pub-body">
+            <p class="pub-title">A Tale of Two Cities: How WebView Induces Bugs to Android Applications <span class="tag">CCF-A</span></p>
+            <p class="pub-authors">Jiajun Hu, Lili Wei, Yepang Liu*, Shing-Chi Cheung*, <span class="me">Huaxun Huang</span></p>
+            <p class="pub-meta">
+              33rd IEEE/ACM International Conference on Automated Software Engineering (ASE 2018), Montpellier, France, September 2018
+              <span class="pub-links"><a href="./src/71ase18.pdf">preprint</a></span>
+            </p>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+
+    <section id="honors_awards" class="reveal">
+      <h2>Selected Honors &amp; Awards</h2>
+      <ul class="simple-list">
+        <li>Huawei Yishan Young Scholar (华为毅善青年学者), 2026</li>
+        <li>Ministry of Education Overseas Talent Recruitment Postdoctoral Program (教育部海外引才博士后专项), 2026</li>
+        <li>Hong Kong PhD Fellowship Scheme (香港博士研究生奖学金计划, HKPFS), 2017–2021</li>
+        <li>SIGSOFT CAPS for ASE 2018, 2018</li>
+        <li>Outstanding Graduates Honor in Liaoning Province (辽宁省优秀毕业生), 2017</li>
+        <li>Outstanding Undergraduate Student in Shenyang City (沈阳市优秀大学生), 2016</li>
+        <li>National Scholarship (国家奖学金), 2014–2015</li>
+        <li>Liu Dajie and Fang Wenyu Scholarship (刘大阶、方文玉奖学金), 2013–2014</li>
+      </ul>
+    </section>
+
+    <section id="students" class="reveal">
+      <h2>Students</h2>
+      <ul class="simple-list">
+        <li><span class="student-name">Wu Liu</span><span class="student-meta"> — Master student since 2023 (co-supervised with Prof. Rongxin Wu)</span></li>
+        <li><span class="student-name">Jiahao Gu</span><span class="student-meta"> — Master student since 2024</span></li>
+        <li><span class="student-name">Teyu Lin</span><span class="student-meta"> — Master student since 2024</span></li>
+        <li><span class="student-name">Xiangyang Xiao</span><span class="student-meta"> — Master student since 2024</span></li>
+        <li><span class="student-name">Haoze Yu</span><span class="student-meta"> — Master student since 2024</span></li>
+        <li><span class="student-name">Minghao Fan</span><span class="student-meta"> — Master student since 2025</span></li>
+        <li><span class="student-name">Jian He</span><span class="student-meta"> — Master student since 2025</span></li>
+        <li><span class="student-name">Chengfeng Lin</span><span class="student-meta"> — Master student since 2025</span></li>
+        <li><span class="student-name">Zhirong Zheng</span><span class="student-meta"> — Master student since 2025</span></li>
+      </ul>
+    </section>
+
+    <section id="teaching_experience" class="reveal">
+      <h2>Teaching Experience</h2>
+      <ul class="simple-list">
+        <li>Teaching assistant for COMP4431, Spring 2020</li>
+        <li>Teaching assistant for COMP2012, Fall 2019</li>
+        <li>Teaching assistant for COMP4111, Fall 2018</li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      Maintained by Huaxun Huang
+    </footer>
+
+  </main>
+
+  <script>
+    (function () {
+      var root = document.documentElement;
+      var stored = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (stored === 'dark' || (!stored && prefersDark)) {
+        root.setAttribute('data-theme', 'dark');
+      }
+      document.getElementById('themeToggle').addEventListener('click', function () {
+        var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        if (next === 'dark') {
+          root.setAttribute('data-theme', 'dark');
+        } else {
+          root.removeAttribute('data-theme');
+        }
+        localStorage.setItem('theme', next);
+      });
+
+      // Reveal sections on scroll (once)
+      var sections = document.querySelectorAll('.reveal');
+      if ('IntersectionObserver' in window) {
+        var revealObs = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) {
+              e.target.classList.add('is-visible');
+              revealObs.unobserve(e.target);
+            }
+          });
+        }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+        sections.forEach(function (s) { revealObs.observe(s); });
+      } else {
+        sections.forEach(function (s) { s.classList.add('is-visible'); });
+      }
+
+      // Highlight nav link for the section currently in view
+      var navLinks = document.querySelectorAll('.nav-links a');
+      var linkById = {};
+      navLinks.forEach(function (a) {
+        var id = a.getAttribute('href').replace('#', '');
+        linkById[id] = a;
+      });
+      if ('IntersectionObserver' in window) {
+        var navObs = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            var link = linkById[e.target.id];
+            if (!link) return;
+            if (e.isIntersecting) {
+              navLinks.forEach(function (l) { l.classList.remove('active'); });
+              link.classList.add('active');
+            }
+          });
+        }, { rootMargin: '-40% 0px -55% 0px', threshold: 0 });
+        sections.forEach(function (s) { navObs.observe(s); });
+      }
+    })();
+  </script>
+
 </body>
 </html>
