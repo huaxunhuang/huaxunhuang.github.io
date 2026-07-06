@@ -216,36 +216,6 @@ main {
   margin: 0 4px;
 }
 
-.hero-text .links {
-  margin: 10px 0 0;
-  font-size: 13px;
-}
-
-.hero-text .links a {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 4px 10px;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  color: var(--text);
-  background: var(--surface);
-  transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
-}
-
-.hero-text .links a:hover {
-  border-color: var(--accent);
-  color: var(--accent);
-  background: var(--accent-soft);
-  text-decoration: none;
-}
-
-.hero-text .links svg {
-  width: 14px;
-  height: 14px;
-  fill: currentColor;
-}
-
 /* ===== Sections ===== */
 section {
   margin-bottom: 56px;
