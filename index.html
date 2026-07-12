@@ -45,7 +45,7 @@
       </div>
     </header>
 
-    <section id="bio" class="reveal">
+    <section id="bio">
       <h2>Short Bio / 简介</h2>
       <p>
         I am an assistant professor at the School of Informatics (National Characteristic Demonstration Software School),
@@ -67,7 +67,7 @@
       <p lang="zh-CN">欢迎通过邮件与我联系。</p>
     </section>
 
-    <section id="publication" class="reveal">
+    <section id="publication">
       <h2>Publications</h2>
       <p class="section-note">^ denotes students I supervised. * denotes the corresponding author.</p>
 
@@ -196,7 +196,7 @@
       </ul>
     </section>
 
-    <section id="honors_awards" class="reveal">
+    <section id="honors_awards">
       <h2>Selected Honors &amp; Awards</h2>
       <ul class="simple-list">
         <li>Huawei Yishan Young Scholar (华为毅善青年学者), 2026</li>
@@ -210,7 +210,7 @@
       </ul>
     </section>
 
-    <section id="students" class="reveal">
+    <section id="students">
       <h2>Students</h2>
       <ul class="simple-list">
         <li><span class="student-name">Wu Liu</span><span class="student-meta"> — Master student since 2023 (co-supervised with Prof. Rongxin Wu)</span></li>
@@ -225,7 +225,7 @@
       </ul>
     </section>
 
-    <section id="teaching_experience" class="reveal">
+    <section id="teaching_experience">
       <h2>Teaching Experience</h2>
       <ul class="simple-list">
         <li>Software Engineering (软件工程), 2024 – present</li>
@@ -260,22 +260,6 @@
         localStorage.setItem('theme', next);
       });
 
-      // Reveal sections on scroll (once)
-      var sections = document.querySelectorAll('.reveal');
-      if ('IntersectionObserver' in window) {
-        var revealObs = new IntersectionObserver(function (entries) {
-          entries.forEach(function (e) {
-            if (e.isIntersecting) {
-              e.target.classList.add('is-visible');
-              revealObs.unobserve(e.target);
-            }
-          });
-        }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
-        sections.forEach(function (s) { revealObs.observe(s); });
-      } else {
-        sections.forEach(function (s) { s.classList.add('is-visible'); });
-      }
-
       // Highlight nav link for the section currently in view
       var navLinks = document.querySelectorAll('.nav-links a');
       var linkById = {};
@@ -284,6 +268,7 @@
         linkById[id] = a;
       });
       if ('IntersectionObserver' in window) {
+        var sections = document.querySelectorAll('main section');
         var navObs = new IntersectionObserver(function (entries) {
           entries.forEach(function (e) {
             var link = linkById[e.target.id];
