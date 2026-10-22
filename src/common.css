@@ -341,11 +341,11 @@ section p {
 }
 
 .news {
-  display: flex;
-  gap: 14px;
-  align-items: flex-start;
   padding: 8px 0;
   border-bottom: 1px solid var(--border);
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.6;
 }
 
 .news:last-child {
@@ -353,27 +353,12 @@ section p {
 }
 
 .news-date {
-  flex-shrink: 0;
   font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
-  color: var(--accent-soft-text);
-  background: var(--accent-soft);
-  padding: 2px 8px;
-  border-radius: 5px;
+  color: var(--accent);
+  margin-right: 8px;
   white-space: nowrap;
-  margin-top: 2px;
-}
-
-.news-text {
-  margin: 0;
-  font-size: 14px;
-  color: var(--text);
-  line-height: 1.6;
-}
-
-.news-text em {
-  font-style: italic;
 }
 
 /* ===== Simple lists (awards, students, teaching) ===== */
